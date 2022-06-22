@@ -21,7 +21,7 @@
 
 AMS_5600 ams5600;
 
-class PendulumClass{                                     // Class for the AeroShield device
+class PendulumClass{                                     // Class for the RotaryPendulum device
  public:
     void begin(void);
     void calibration(void);            // Kalibracia
