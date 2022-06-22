@@ -1,6 +1,6 @@
 #include "RotaryPendulum.h"
 
-unsigned int perioda = 25;    // perioda opakavania cyklu v ms
+unsigned int perioda = 70;    // perioda opakavania cyklu v ms
 unsigned long int t;    // premenna do ktorej sa uklada aktualny cas
 unsigned long int dalsi_krok;   // premenna, ktora definuje, kedy nastane dalsi cyklus (krok)
 bool pretecenie = false;    // premenna oznacujuca pretecenie
