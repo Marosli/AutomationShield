@@ -1,4 +1,4 @@
-// Defining c++ library used by the AeroShield 
+// Defining c++ library used by RotaryPendulum
 #ifndef ROTARYPENUDLUM_H
 #define ROTARYPENUDLUM_H
 
@@ -21,7 +21,7 @@
 
 static void (*__timer1Hook)(void);
 
-class PendulumClass{                                     // Class for the AeroShield device
+class PendulumClass{                                     // Class for the RotaryPendulum device
  public:
     void begin(void);
     void calibration(void);            // Kalibracia
@@ -36,7 +36,7 @@ class PendulumClass{                                     // Class for the AeroSh
     double computePID(double inp);
     void krok();
         
-        // premenne, ktore sa pouzivaju pri praci s motorm
+      // premenne, ktore sa pouzivaju pri praci s motorom
     unsigned int c0;
     // premenne pre rychlost a rozlisenie
     float velocity, abs_velocity;
