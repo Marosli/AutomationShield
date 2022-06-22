@@ -1,4 +1,4 @@
-// Defining c++ library used by the AeroShield 
+// Defining c++ library 
 #ifndef ROTARYPENDULUM_H
 #define ROTARYPENDULUM_H 
 
